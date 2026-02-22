@@ -258,8 +258,7 @@ if __name__ == "__main__":
 
     if args.sim:
         args.port = "SIMULATOR"
-        print("Running in SIMULATOR mode -- make sure simulator.py is running!
-")
+        print("Running in SIMULATOR mode -- make sure simulator.py is running!")
 
     collector = DataCollector(port=args.port, output_path=args.output)
 
